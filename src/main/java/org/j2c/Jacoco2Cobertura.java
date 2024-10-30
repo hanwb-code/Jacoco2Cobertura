@@ -30,7 +30,7 @@ public class Jacoco2Cobertura implements Runnable {
 
     public static void main(String[] args) {
     	
-    	//args = "-j target/mjacoco.xml -s src/main/java -d target/coverage.xml".split(" ");
+    	// args = "-j D:\\gitlab\\cicd\\Jacoco2Cobertura\\jacoco.xml -s src/main/java -d cicd/coverage.xml".split(" ");
 
         new CommandLine(new Jacoco2Cobertura()).execute(args);
     }
